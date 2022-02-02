@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;800&display=swap');
+
+.waze-card{
+    text-align: center;
+    background-color:#fce354;
+    border-radius: 20px;
+    padding: 90px 0;
+    font-family: 'Poppins', sans-serif;
+    margin: 60px 30px;
+    display: none;
+}
+.waze-card-1{
+    background-color:#1ee592;
+    border-radius: 20px;
+    padding: 90px 30px;
+    font-family: 'Poppins', sans-serif;
+    margin: 60px 30px;
+    width: 600px;
+    display: none;
+}
+.waze-title{
+    font-size: 42px;
+    font-weight: 600;
+    color: #000;
+    margin:0;
+}
+.waze-desc{
+    margin-top: 0;
+}
+.waze-btn{
+
+    background-color: #fff;
+    color: black;
+    padding: 12px 32px;
+    border-radius: 120px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+.mt-10{
+    margin-top: 60px;
+}
+
+.card{
+    border:1px solid lightgray;
+    padding: 8px;
+    border-radius: 12px;
+    margin:20px;
+    width: 360px;
+    font-family: 'Poppins', sans-serif;
+}
+.card-title{
+    font-size: 24px;
+    font-weight: 500;
+}
+.img-res{
+    width: 100%;
+    border-radius: 12px;
+}
+.btn{
+    background-color: #963eff;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 120px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+   
+}
+.avatar{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+.text-center{
+    text-align: center;
+}
+.img-160{
+    height: 100px;
+}
+.food-card{
+    border:1px solid lightgray;
+    border-radius: 12px;
+    margin:20px;
+    width: 360px;
+    font-family: 'Poppins', sans-serif;
+}
+.food-img{
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.food-title{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.food-desc{
+    font-size: 14px;
+    margin-top: 0;
+}
+.p-12{
+    padding: 12px;
+}
