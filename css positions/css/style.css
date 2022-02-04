@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;800&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+/* display: block, none, inline; */
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 600px;
+    margin: 30px;
+    padding: 12px;
+    border-radius: 12px;
+    display: none;
+    
+}
+.card img{
+    width: 100%;
+    border-radius: 12px;
+
+}
+.tag{
+    background-color: #e5beff;
+    color: blueviolet;
+    display: inline;
+    border-radius: 30px;
+    font-size: 12px;
+    padding: 3px 16px;
+    margin: 5px;
+}
+/* positions
+fixed: fixed to the top of the viewport
+sticky: fixed to the top of the page
+absolute: fixed to the top of the page, but not the viewport
+relative: fixed to the top of the page, but not the viewport, but can be scrolled
+*/
+.support-btn{
+    background-color: rgb(201, 255, 201);
+    color: green;
+    display: inline;
+    border-radius: 30px;
+    padding: 10px 24px;
+    cursor: pointer;
+    position:fixed;
+    margin: 25px;
+    bottom:0;
+    right:0;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.btn{
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    padding: 6px 24px;
+    cursor: pointer;
+    border:none;
+    text-decoration: none;
+    font-size: 14px;
+}
+.display-2{
+    font-size:18px;
+    font-weight: 400;
+    margin: 6px;
+}
+.sticky-top{
+    padding: 6px 0;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+}
+.profile-card{
+
+}
+.relative{
+    position: relative;
+    background-color: #e5beff;
+    height: 300px;
+    width: 600px;
+    border-radius: 12px;
+    display: none;
+}
+.abs{
+    position: absolute;
+    background-color: #7602c3;
+    height: 60px;
+    width: 60px;
+    border-radius: 12px;
+    /* bottom: 0; */
+    right: 0;
+    ;
+}
+
+.food-card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 300px;
+    margin: 12px;
+    padding: 12px;
+    border-radius: 12px;
+}
+.img-res{
+    width: 100%;
+    border-radius: 12px;
+}
+.food-header{
+    position: relative;
+    height: 170px;
+}
+.food-tag{
+    position: absolute;
+    right:0;
+    top:0;
+    background-color: rgb(230, 208, 255);
+    color: #7602c3;
+    font-size: 13px;
+    border-radius: 18px;
+    padding: 2px 14px;
+    /* margin: 0 0 12px 12px; */
+    margin:12px;
+}
+.user{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    bottom:0;
+    left:0;
+    margin: 40px 0 0 12px;
+}
