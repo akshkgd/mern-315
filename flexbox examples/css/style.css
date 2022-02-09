@@ -1,0 +1,141 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* .bg-login{
+    background-color: #f5efeb;
+} */
+.login-card{
+    border:1px solid lightgray;
+    border-radius: 12px;
+    width: 480px;
+    padding: 24px;
+    background-color: #fff;
+    display: block;
+}
+.login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: none;
+}
+input{
+    border:1px solid lightgray;
+    display: block;
+    border-radius: 12px;
+    padding: 16px;
+    width: 92%;
+    margin-bottom: 18px;
+    margin-top: 8px;
+
+}
+.mb-5{
+    margin-bottom: 6px !important;
+}
+.login-btn{
+    background-color: #4b2aad;;
+    color: white;
+    border:none;
+    padding: 16px 0;
+    width: 100%;
+    border-radius: 12px;
+}
+.label{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card{
+    border:1px solid lightgray;
+    border-radius: 12px;
+    padding: 12px;
+    margin: 12px;
+    width: 480px;
+}
+.d-flex{
+    display: flex;
+}
+.side-img{
+    height: 200px;
+    width: 170px;
+    border-radius: 12px;
+    margin-right: 12px;
+}
+.card-title{
+    margin: 0;
+}
+.card-desc{
+    margin: 8px 0;
+    font-size: 15px;
+}
+.btn{
+    background-color: #4b2aad;
+    color: white;
+    border:none;
+    padding: 8px 18px;
+    border-radius: 66px;
+    display: inline-block;
+    margin-top: 36px;
+    text-decoration: none;
+}
+.food-btn{
+    background-color: #4b2aad;
+    color: white;
+    border:none;
+    padding: 8px 18px;
+    border-radius: 66px;
+    display: inline-block;
+    margin-top: 12px;
+    text-decoration: none;
+}
+.avatar{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.food-card{
+   box-shadow: 0 0 10px lightgray;
+    border-radius: 12px;
+    margin: 12px;
+    width: 330px;
+}
+.food-img{
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.p-12{
+    padding: 12px;
+}
+.food-header{
+    position: relative;
+}
+.ratings{
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    padding: 2px 8px;
+    font-size: 14px;
+    border-radius: 42px;
+    margin: 0 0 18px 12px;
+}
+.jc-sb{
+    justify-content: space-between;
+}
+.best-seller{
+    margin:0;
+    background-color: rgb(253, 215, 202);
+    color: rgb(255, 106, 52);
+    padding: 2px 8px;
+    font-size: 14px;
+    border-radius: 4px;
+
+}
