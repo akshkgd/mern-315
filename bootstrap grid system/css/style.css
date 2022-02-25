@@ -1,0 +1,16 @@
+.card{
+    border-radius: 16px;
+}
+.rounded-12{
+    border-radius: 16px;
+}
+.img-90{
+    height: 100px;
+}
+.link{
+    text-decoration: none;
+}
+.card-footer{
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
