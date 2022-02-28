@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+  --primary  : rgb(21, 95, 255);
+  --white    : #fff;
+}
+.container{
+    margin: 0 5%;
+}
+section{
+    margin: 0 0 80px 0;
+}
+.text-center{
+    text-align: center;
+}
+.display-5{
+    font-size: 2.4rem;
+}
+.display-6{
+   font-size: 2rem;
+}
+.hero-img{
+    height: 360px;
+}
+.m-0{
+    margin: 0;
+}
+.btn{
+    background-color: var(--primary);
+    border:1px solid var(--primary);
+    color: white;
+    display: inline-block;
+    padding: .5rem 1.7rem;
+    border-radius: 66px;
+    text-decoration: none;
+}
+.btn-outline{
+    background-color: white;
+    border:1px solid var(--primary);
+    color: var(--primary);
+    display: inline-block;
+    padding: .5rem 1.7rem;
+    border-radius: 66px;
+    text-decoration: none;
+}
+.hero-container{
+    width: 700px;
+    margin: 0 auto;
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.img-res{
+    width: 100%;
+}
+.w-50{
+    width: 50%;
+}
+.desc{
+    color:rgb(73, 73, 73);
+}
+.app-card{
+    background-color: rgb(255, 243, 222);
+    border-radius: 16px;
+    padding: 20px;
+    margin: 20px 0;
+    width: 85%;
+}
+.justify-content-center{
+    display: flex;
+    justify-content: center;
+}
+.app-btn-apple{
+    height: 50px;
+}
+.app-btn-google{
+    
+    height: 70px;
+}
+.align-items-center{
+    display: flex;
+    height: 100px;
+    align-items: center;
+}
+.features{
+    width: 80%;
+}
+.brand{
+    height: 40px;
+    padding: 0 10px
+}
+.brand-1{
+    height: 26px;
+    padding: 0 10px
+}
+.brand-logo{
+    width: 75%;
+
+
+}
+.brand-chip{
+    border:1px solid lightgray;
+    border-radius: 40px;
+    padding: 4px 18px;
+    margin: 8px;
+    display: inline-block;
+
+}
+.pricing-card{
+    border:1px solid lightgray;
+    border-radius: 16px;
+    padding: 20px;
+    margin:12px;
+    width:350px
+}
+.text-primary{
+    color: var(--primary);
+}
+nav{
+    position: sticky;
+    top: 0;
+    height: 30px;
+    background-color: white;
+    padding: 16px 0;
+}
+.navbar{
+    
+    top: 0;
+    margin:0 6%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    font-weight: bolder;
+    font-size: 1.5rem;
+    color: var(--primary);
+    text-decoration: none;
+}
+.nav-link{
+    color: black;
+    text-decoration: none;
+    padding: 8px 14px;
+}
+.nav-btn{
+    background-color: var(--primary);
+    border:1px solid var(--primary);
+    color: white;
+    display: inline-block;
+    padding: 8px 14px;
+    border-radius: 66px;
+    text-decoration: none;
+}
