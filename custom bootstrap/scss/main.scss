@@ -1,0 +1,25 @@
+$card-border-radius: 18px;
+
+$theme-colors: (
+  "primary":    #0070F3,
+  "secondary":  #7928ca,
+  "success":    #17c964,
+  "warning":    #f5a623,
+  "danger":     #f21361,
+  "light":      white,
+  "dark":       black,
+);
+
+
+// custom css
+
+.full-height{
+    height: 100vh;
+}
+.card-link{
+    text-decoration: none;
+}
+
+// custom css ends
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
