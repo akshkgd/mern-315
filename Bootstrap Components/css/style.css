@@ -1,0 +1,33 @@
+.pill{
+    
+    padding: 3px 12px;
+    font-size: 14px;
+    border-radius: 40px;
+}
+
+.danger-pill{
+    background-color: rgb(255, 200, 200);
+    color: rgb(228, 62, 62);
+}
+.success-pill{
+    background-color: rgb(210, 255, 210);
+    color: green;
+}
+.warning-pill{
+    background-color: rgb(255, 221, 205);
+    color: rgb(158, 91, 28);
+}
+.info-pill{
+    background-color: rgb(216, 204, 255);
+    color: purple;
+}
+.table-user{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin: 0 4px;
+}
+
+.rounded-16{
+    border-radius: 16px;
+}
