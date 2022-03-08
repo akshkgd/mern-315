@@ -61,6 +61,7 @@
   margin-top: 12px;
   text-decoration: none;
   display: inline-block;
+  cursor: pointer;
   /* text-align: center; */
 }
 /* .btn:hover{
@@ -86,9 +87,9 @@
   /* overflow-y: scroll; */
 }
 .btn-forward{
-    display: inline-block;
+    display: inline;
 }
-.btn:hover{
+.btn .btn-forward:hover{
     animation: btn-emoji-animate;
     animation-duration: 400ms;
     animation-fill-mode: forwards;
