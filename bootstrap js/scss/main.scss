@@ -1,0 +1,12 @@
+$card-border-radius:16px;
+$modal-content-border-radius:16px;
+$modal-content-border-color: white;
+$accordion-button-active-bg: white;
+$accordion-button-active-color: black;
+$accordion-button-focus-border-color: white;
+$accordion-button-focus-box-shadow: white;
+
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../node_modules/bootstrap/scss/bootstrap-reboot.scss';
+@import '../node_modules/bootstrap/scss/bootstrap-utilities.scss';

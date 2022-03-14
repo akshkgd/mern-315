@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shado">
+        <div class="container">
+          <a class="navbar-brand fw-bold" href="#">Codekaro</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">Home</a>
+              </li>
+
+              <li class="nav-item">
+                  <a href="" class="nav-link ">About Us</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="" class="nav-link ">Contact Us</a>
+            </li>
+              
+            </ul>
+            <form class="d-flex">
+              
+              <button type="button"  data-bs-toggle="modal" class="btn btn-primary px-4 rounded-pill" data-bs-target="#exampleModal">Login Now</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+    <!-- navbar -->
+
+<!-- faq -->
+<div class="container mt-5 pt-5">
+    <div class="row justify-content-center">
+        <div class="text-center my-3">
+            <h1 class="fw-bold">Read Our FAQ'S</h1>
+        </div>
+        <div class="col-md-8">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Lorem ipsum dolor sit amet consectetur.
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio aliquid saepe libero ullam incidunt adipisci voluptatibus alias pariatur quis praesentium.</p>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseOne">
+                        Lorem ipsum dolor sit amet consectetur.
+                      </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio aliquid saepe libero ullam incidunt adipisci voluptatibus alias pariatur quis praesentium.</p>
+                      </div>
+                    </div>
+                  </div>
+        </div>
+        
+    </div>
+</div>
+
+
+<!-- faq -->
+
+<!-- login modal -->
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header border-none">
+          <h5 class="modal-title fw-bolder fs-3" id="exampleModalLabel">Login Now</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id recusandae ratione unde!</p>
+
+          <form action="">
+            <div class="form-group">
+                <label class="form-label" for="">Your Email</label>
+                <input type="email" class="form-control form-control-lg" name="" id="">
+            </div>
+            <div class="form-group mt-3">
+                <label class="form-label" for="">Your Password</label>
+                <input type="password" class="form-control form-control-lg" name="" id="">
+                
+            </div>
+            
+            <a href="" class="btn btn-dark rounded-pill px-4 mt-4">Login Now</a>
+
+            <div class="my-2">
+                <p>New to codekaro? <a href="" class="card-link">Register Now</a></p>
+            </div>
+        </form>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+
+<!-- login modal ends -->
+
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
