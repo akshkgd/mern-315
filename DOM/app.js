@@ -49,3 +49,33 @@ let users = [
     {firstName: 'Arpit', lastName: 'Khare', age: 40, salary: 7000},
     {firstName: 'Sahil', lastName: 'Pocker', age: 45, salary: 8000},
 ]
+
+function userExist(x){
+    let inputName = document.getElementById('name').value.toLowerCase();
+    let find = 0;
+    let firstName = x.firstName.toLowerCase();
+    let lastName = x.lastName.toLowerCase();
+    if(firstName == inputName || lastName == inputName || firstName + ' ' + lastName == inputName)
+    {
+        find = 1;
+        document.getElementById('userName').innerHTML = firstName + ' ' + lastName;
+        document.getElementById('alert-success').classList.remove('d-none');
+        setTimeout(() => {document.getElementById('alert-success').classList.add('d-none');}, 3000);
+        let inputName = document.getElementById('name');
+        inputName.value = '';
+        return find;
+    }
+    
+    
+}
+
+function findUser(){
+  let find =   users.filter(userExist)
+    if(find == 0){
+        document.getElementById('alert-danger').classList.remove('d-none');
+        document.getElementById('userName').innerHTML = '';
+        setTimeout(() => {document.getElementById('alert-danger').classList.add('d-none');}, 3000);
+        let inputName = document.getElementById('name');
+        inputName.value = '';
+    }
+}
