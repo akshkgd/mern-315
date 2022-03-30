@@ -1,0 +1,12 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+
+div{
+    border:2px solid blueviolet;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 12px;
+}
