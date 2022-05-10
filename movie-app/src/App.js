@@ -4,8 +4,7 @@ import FirstComponent from './components/Demo';
 import Todo from './components/Todo';
 import FoodCard from './components/FoodCard';
 import Movies from './components/Movies/Movies';
-import MovieModal from './components/MovieModal/MovieModal';
-import React, {useState}  from 'react';
+
 
 let foodItems = [
   {name: 'Veg Extravaganza Pizza', price: 399, img: 'https://source.unsplash.com/1600x800/?pizza', desc: 'Black olives, capsicum, onion, grilled mushroom, corn, tomato, jalapeno & extra cheese', ratings: 4.6, votes: 317},
@@ -24,25 +23,13 @@ const movies = [
 ]
 
 function App() {
-  let [counter, setCounter] = useState(0)
-
-  function increment(){
-    setCounter(counter + 1)
-    
-  }
   return (
     <div>
       <div className='text-center'>
-        <h1 className='title'>Codekaro Food Ordering App</h1>
+        <h1 className='title'>Codekaro Movie App</h1>
         <p className='m-0'>This is a simple react JS food ordering app</p>
       </div>
 
-
-      {/* <div className='container'>
-        <FoodCard name={foodItems[0].name} price={foodItems[0].price} img={foodItems[0].img} desc={foodItems[0].desc} ratings={foodItems[0].ratings} votes={foodItems[0].votes} />
-        <FoodCard name={foodItems[1].name} price={foodItems[1].price} img={foodItems[1].img} desc={foodItems[1].desc} ratings={foodItems[1].ratings} votes={foodItems[1].votes} />
-        <FoodCard name={foodItems[2].name} price={foodItems[2].price} img={foodItems[2].img} desc={foodItems[2].desc} ratings={foodItems[2].ratings} votes={foodItems[2].votes} />
-      </div> */}
 
       <div className='container'>
       <Movies title={movies[0].title} year={movies[0].year} img={movies[0].img} genre={movies[0].genre} description={movies[0].description} />
@@ -55,16 +42,11 @@ function App() {
       
       </div>
 
-      <MovieModal />
+      
 
 
 
-      <>
-      <h1>{counter}</h1>
-      <button onClick={increment}>increment</button>
-      </>
-
-
+      
 
     </div>
   );

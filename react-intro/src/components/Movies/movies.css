@@ -1,0 +1,12 @@
+.movie-card-img{
+    width:200px;
+    height: 300px;
+    border-radius: 16px;
+    object-fit: cover;
+    margin:12px;
+    cursor: pointer;
+}
+
+.movie-card h4,p{
+    margin:0 0 0 12px;
+}
