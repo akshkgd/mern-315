@@ -3,9 +3,10 @@ import './Meetings.css'
 function MeetingCard(props) {
     return(
         <div className="card">
-            <h2>This is meeting Name</h2>
-            <p>This is meeting description</p>
-            <button>Join the Meeting</button>
+            <img src={props.img} alt="meetings" className="card-img-top" />
+            <h2>{props.title}</h2>
+            <p>{props.desc}</p>
+            <button className='btn'>Join the Meeting</button>
         </div>
     )
 }
