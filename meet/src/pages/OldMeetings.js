@@ -5,7 +5,7 @@ import NoMeetings from '.././img/noMeetings.png';
 import MeetingsCard from '../components/Meetings/MeetingCard';
 // import Moment from 'react-moment';
 import moment from 'moment';
-function Home(){
+function OldMeetings(){
 
     const [meetings, setMeetings] = useState([]);
     const [loading, setLoading] = useState(true);
@@ -35,7 +35,7 @@ function Home(){
         <div>
            
             <div className='container text-center my-5'>
-                <h1 className='title '>Welcome to Codekaro Meetings</h1>
+                <h1 className='title '>Previous meetings</h1>
                 <p className='desc'>Foster meaningful relationships with events, newsletters, and community analytics</p>
             
             </div>
@@ -61,7 +61,7 @@ function Home(){
                             console.log(today)
                             console.log(meetingDate)
 
-                            if(meetingDate.isSameOrAfter(today)){
+                            if(meetingDate.isSameOrBefore(today)){
                                 return meeting;
                             }
                         }).map(meeting => {
@@ -76,4 +76,4 @@ function Home(){
         
     );
 }
-export default Home;
+export default OldMeetings;

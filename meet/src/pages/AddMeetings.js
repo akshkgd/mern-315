@@ -8,18 +8,21 @@ function AddMeetings(){
     const titleInputRef = useRef();
     const descInputRef = useRef();
     const imgInputRef = useRef();
-    
+    const dateInputRef = useRef();
     function submitHandler(event){
         event.preventDefault();
 
         const title = titleInputRef.current.value;
         const desc = descInputRef.current.value;
-        const img = imgInputRef.current.value;
+        const img = 'https://source.unsplash.com/1600x800/?' + imgInputRef.current.value;
+        const date = dateInputRef.current.value;
+
 
         const meetingData = {
             title: title,
             desc: desc,
-            img: img
+            img: img,
+            date: date
         }
         fetch('https://mern315-meet-demo-default-rtdb.firebaseio.com/meetings.json',{
             method: 'POST',
@@ -47,8 +50,12 @@ function AddMeetings(){
                         <input type="text" className="form-control" id="title" placeholder="Enter the meeting title" ref={titleInputRef}/>
                     </div>
                     <div className='form-group'>
-                        <label htmlFor="exampleInputEmail1">Meeting Title</label>
+                        <label htmlFor="exampleInputEmail1">Image keyword</label>
                         <input type="text" className="form-control" id="title" placeholder="Enter the meeting title" ref={imgInputRef}/>
+                    </div>
+                    <div className='form-group'>
+                        <label htmlFor="exampleInputEmail1">Meeting Date</label>
+                        <input type="date" className="form-control" id="title" placeholder="Enter the meeting title" ref={dateInputRef}/>
                     </div>
                     <div className='form-group'>
                         <label htmlFor="exampleInputEmail1">Meeting Title</label>

@@ -6,7 +6,7 @@ function Navigation() {
             <h3 > <Link className='logo' to="/">Codekaro</Link> </h3>
         <ul className='nav'>
             <li> <Link className='nav-link' to="/">Home</Link> </li>
-            <li> <Link className='nav-link' to="/important">Important Meetings</Link> </li>
+            <li> <Link className='nav-link' to="/old">Old Meetings</Link> </li>
             <li> <Link className='nav-link' to="/add">Add Meeting</Link> </li>
 
         </ul>
