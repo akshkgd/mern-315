@@ -17,7 +17,7 @@ app.post('/login', (req,res)=>{
     }
     else{
         console.log('username or password is wrong')
-        res.render('login', {status: false})
+        res.render('login', {status: fals})
     }
 })
 
