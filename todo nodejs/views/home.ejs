@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        Codekaro Todo App
+    </div>
+    <div class="container">
+        <form action="/add-task" method="post">
+            <div class="add-task-container">
+                <input type="text" name="task" class="add-task" placeholder="Enter a task">
+                <button class="add-btn">Add task</button>
+            </div>
+        </form>
+        
+        <div class="task-container">
+            <%for(i=0; i<=todoArray.length; i++) { %>
+            <div class="item">
+                <input type="checkbox" class="task-completed">
+                <p><%=todoArray[i] %></p>
+                
+            </div>
+            <% } %>
+            
+        </div>
+    </div>
+
+</body>
+</html>
